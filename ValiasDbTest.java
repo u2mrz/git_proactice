@@ -75,10 +75,6 @@ public class ValiasDbTest {
 
     // 共通メンバー -------------------------------------------
 
-    private Connection con;
-    private static final int insertTime = 1000 * 5;
-    private static final int COUNT = 10000 * 10;
-    private static final String DATA = "12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890";
 
     @After
     public void after() throws Exception {
